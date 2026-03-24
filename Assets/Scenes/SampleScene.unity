@@ -2623,7 +2623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0434a65be6e4349b44244861875a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::playerStat
-  hp: 90
+  hp: 50
   fallLimit: -10
   respawnPoint: {x: -0.2712, y: -0.3857, z: -0.6393}
 --- !u!114 &1569752457
