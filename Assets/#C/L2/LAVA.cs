@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class RespawnZone : MonoBehaviour
+public class LAVA : MonoBehaviour
 {
     
     public Transform spawnPoint; //ตัวแปรเพื่อเก็บตำแหน่งจุดเกิดใหม่ของตัวละคร
@@ -20,9 +20,6 @@ public class RespawnZone : MonoBehaviour
 
                 // 2. ย้ายตำแหน่งตัวผู้เล่นไปที่จุดเกิด
                 other.transform.position = spawnPoint.position;
-
-                // (ถ้าต้องการให้หันหน้าไปทางเดียวกับจุดเกิดด้วย ให้เปิดคอมเมนต์บรรทัดล่างนี้ครับ)
-                // other.transform.rotation = spawnPoint.rotation;
 
                 // 3. เปิดการทำงานกลับมาเหมือนเดิม
                 charController.enabled = true;
